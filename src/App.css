@@ -1,0 +1,39 @@
+.todoFormTitle {
+  background-color: #eeeeee;
+  padding: 40px;
+}
+
+input {
+  margin: 0 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+h1 {
+  margin: 0 10px 10px 0;
+}
+
+.todoContainer {
+  border: 4px solid rgb(20, 209, 174);
+  border-radius: 10px;
+  width: 300px;
+  padding: 40px;
+  margin: 20px;
+}
+
+.delete {
+  background-color: #fff;
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 5px;
+  width: 45%;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.complete {
+  background-color: #fff;
+  border: 2px solid rgb(13, 126, 106);
+  border-radius: 5px;
+  width: 45%;
+  height: 40px;
+}
