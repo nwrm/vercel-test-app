@@ -71,7 +71,7 @@ function App() {
         <button onClick={addTodo}>추가하기</button>
       </div>
       <div>
-        <div>working...🔥</div>
+        <div className="category1">working...🔥</div>
         {todoList
           .filter((value) => !value.isDone)
           .map((value) => (
@@ -83,7 +83,7 @@ function App() {
             />
           ))}
 
-        <div>Done..! 🎉</div>
+        <div className="category2">Done..! 🎉</div>
         {todoList
           .filter((value) => value.isDone)
           .map((value) => (
